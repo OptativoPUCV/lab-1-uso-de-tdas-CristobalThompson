@@ -237,3 +237,21 @@ exercises.c:103:7: note: each undeclared identifier is reported only once for ea
 cc1.exe: all warnings being treated as errors
 Compilation failed
 e874a51
+Fri, Mar 21, 2025 11:06:19 PM: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function 'copia_pila':
+exercises.c:97:18: error: comparison between pointer and integer [-Werror]
+   97 |    while(top(P1) != -1){
+      |                  ^~
+exercises.c:102:23: error: comparison between pointer and integer [-Werror]
+  102 |    while(top(pilaAux) != -1){
+      |                       ^~
+exercises.c:110:10: error: 'temp' undeclared (first use in this function)
+  110 |    while(temp);
+      |          ^~~~
+exercises.c:110:10: note: each undeclared identifier is reported only once for each function it appears in
+cc1.exe: all warnings being treated as errors
+Compilation failed
+532f5fe
