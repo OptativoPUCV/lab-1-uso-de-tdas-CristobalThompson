@@ -342,3 +342,20 @@ exercises.c:122:27: error: cast to pointer from integer of different size [-Werr
 cc1.exe: all warnings being treated as errors
 Compilation failed
 ff0bf95
+Sat, Mar 22, 2025 11:13:37 AM: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function 'parentesisBalanceados':
+exercises.c:122:28: error: cast to pointer from integer of different size [-Werror=int-to-pointer-cast]
+  122 |          void* elemento = *(void *) cadena[k];
+      |                            ^
+exercises.c:122:27: error: dereferencing 'void *' pointer [-Werror]
+  122 |          void* elemento = *(void *) cadena[k];
+      |                           ^~~~~~~~~~~~~~~~~~~
+exercises.c:122:27: error: void value not ignored as it ought to be
+  122 |          void* elemento = *(void *) cadena[k];
+      |                           ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+ed8edf4

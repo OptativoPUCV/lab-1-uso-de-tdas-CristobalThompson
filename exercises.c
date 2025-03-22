@@ -119,7 +119,7 @@ int parentesisBalanceados(char *cadena) {
    Stack* pilaAux = create_stack();
    for (size_t k = 0; cadena[k]; ++k){
       if (cadena[k] == '(' || cadena[k] == '{' || cadena[k] == '['){
-         void* elemento = (void *) cadena[k];
+         void* elemento = *(void *) cadena[k];
          push(pilaAux, elemento);
       }
    }
