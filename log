@@ -17,3 +17,14 @@ exercises.c:48:17: note: each undeclared identifier is reported only once for ea
 cc1.exe: all warnings being treated as errors
 Compilation failed
 7049a07
+Fri, Mar 21, 2025 10:01:31 PM: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function 'crea_lista':
+exercises.c:47:21: error: cast to pointer from integer of different size [-Werror=int-to-pointer-cast]
+   47 |       int* numero = (int*) k;
+      |                     ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+081a31d
