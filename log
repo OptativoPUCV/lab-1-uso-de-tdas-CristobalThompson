@@ -219,3 +219,21 @@ exercises.c:101:32: error: comparison between pointer and integer [-Werror]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 544a92e
+Fri, Mar 21, 2025 11:05:35 PM: 
+ exercises.c | 9 ++++++---
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+In file included from test.c:5:
+exercises.c: In function 'copia_pila':
+exercises.c:97:18: error: comparison between pointer and integer [-Werror]
+   97 |    while(top(P1) != -1){
+      |                  ^~
+exercises.c:102:23: error: comparison between pointer and integer [-Werror]
+  102 |    while(top(pilaAux) != -1){
+      |                       ^~
+exercises.c:103:7: error: 'temp' undeclared (first use in this function)
+  103 |       temp = top(pilaAux);
+      |       ^~~~
+exercises.c:103:7: note: each undeclared identifier is reported only once for each function it appears in
+cc1.exe: all warnings being treated as errors
+Compilation failed
+e874a51
