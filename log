@@ -141,3 +141,17 @@ exercises.c:64:20: error: void value not ignored as it ought to be
 cc1.exe: all warnings being treated as errors
 Compilation failed
 814645e
+Fri, Mar 21, 2025 10:22:36 PM: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function 'sumaLista':
+exercises.c:64:21: error: dereferencing 'void *' pointer [-Werror]
+   64 |       sumatoria += (*elemento);
+      |                     ^~~~~~~~~
+exercises.c:64:21: error: void value not ignored as it ought to be
+   64 |       sumatoria += (*elemento);
+      |                    ~^~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+f58d675
