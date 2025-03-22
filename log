@@ -275,3 +275,18 @@ Fri, Mar 21, 2025 11:08:13 PM:
  tests:  4|1
 total_score: 50/70
 5553353
+Sat, Mar 22, 2025  1:11:26 AM: 
+ exercises.c | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function 'parentesisBalanceados':
+exercises.c:119:4: error: 'largo' undeclared (first use in this function)
+  119 |    largo = len(cadena);
+      |    ^~~~~
+exercises.c:119:4: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:119:12: error: implicit declaration of function 'len' [-Werror=implicit-function-declaration]
+  119 |    largo = len(cadena);
+      |            ^~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+12695be
