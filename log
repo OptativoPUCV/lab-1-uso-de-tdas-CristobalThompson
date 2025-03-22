@@ -390,3 +390,14 @@ exercises.c:128:15: error: unused variable 'caracter' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 e3e6859
+Sat, Mar 22, 2025 11:22:06 AM: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function 'parentesisBalanceados':
+exercises.c:128:15: error: unused variable 'caracter' [-Werror=unused-variable]
+  128 |          char caracter = (char) (size_t) tope;
+      |               ^~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+201110a
