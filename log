@@ -370,3 +370,9 @@ exercises.c:122:27: error: initialization of 'void *' from 'char' makes pointer 
 cc1.exe: all warnings being treated as errors
 Compilation failed
 2f15370
+Sat, Mar 22, 2025 11:14:54 AM: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|1
+total_score: 50/70
+f01fd28
