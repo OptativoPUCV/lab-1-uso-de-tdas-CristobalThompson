@@ -359,3 +359,14 @@ exercises.c:122:27: error: void value not ignored as it ought to be
 cc1.exe: all warnings being treated as errors
 Compilation failed
 ed8edf4
+Sat, Mar 22, 2025 11:13:55 AM: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function 'parentesisBalanceados':
+exercises.c:122:27: error: initialization of 'void *' from 'char' makes pointer from integer without a cast [-Werror=int-conversion]
+  122 |          void* elemento = cadena[k];
+      |                           ^~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+2f15370
