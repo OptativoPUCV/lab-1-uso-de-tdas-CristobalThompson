@@ -188,3 +188,20 @@ Fri, Mar 21, 2025 10:49:51 PM:
  tests:  3|2
 total_score: 40/70
 6aa6feb
+Fri, Mar 21, 2025 11:02:59 PM: 
+ exercises.c | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+In file included from test.c:5:
+exercises.c: In function 'copia_pila':
+exercises.c:97:27: error: comparison between pointer and integer [-Werror]
+   97 |    while((temp = top(P1)) != -1){
+      |                           ^~
+exercises.c:101:32: error: comparison between pointer and integer [-Werror]
+  101 |    while((temp = top(pilaAux)) != -1){
+      |                                ^~
+exercises.c:108:1: error: expected expression before '}' token
+  108 | }
+      | ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+7517db4
