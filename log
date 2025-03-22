@@ -155,3 +155,14 @@ exercises.c:64:21: error: void value not ignored as it ought to be
 cc1.exe: all warnings being treated as errors
 Compilation failed
 f58d675
+Fri, Mar 21, 2025 10:22:50 PM: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function 'sumaLista':
+exercises.c:64:17: error: assignment to 'int' from 'void *' makes integer from pointer without a cast [-Werror=int-conversion]
+   64 |       sumatoria += elemento;
+      |                 ^~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+8f6c5d1
