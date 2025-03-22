@@ -301,3 +301,9 @@ exercises.c:119:4: error: 'largo' undeclared (first use in this function)
 exercises.c:119:4: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 76e7530
+Sat, Mar 22, 2025  1:12:11 AM: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|1
+total_score: 50/70
+6415be8
