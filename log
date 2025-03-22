@@ -401,3 +401,9 @@ exercises.c:128:15: error: unused variable 'caracter' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 201110a
+Sat, Mar 22, 2025 11:28:08 AM: 
+ exercises.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+ tests:  5|1
+total_score: 50/70
+2f427bf
