@@ -106,8 +106,6 @@ void copia_pila(Stack* P1, Stack* P2) {
       pop(pilaAux);
    }
    free(pilaAux);
-
-   while(temp);
 }
 
 /*
