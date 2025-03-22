@@ -28,3 +28,21 @@ exercises.c:47:21: error: cast to pointer from integer of different size [-Werro
 cc1.exe: all warnings being treated as errors
 Compilation failed
 081a31d
+Fri, Mar 21, 2025 10:01:55 PM: 
+ exercises.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function 'crea_lista':
+exercises.c:47:20: error: passing argument 2 of 'pushFront' makes pointer from integer without a cast [-Werror=int-conversion]
+   47 |       pushFront(L, k);
+      |                    ^
+      |                    |
+      |                    int
+In file included from exercises.c:6,
+                 from test.c:5:
+arraylist.h:17:31: note: expected 'void *' but argument is of type 'int'
+   17 | void pushFront(List *L, void *dato);
+      |                         ~~~~~~^~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+f1f56d5

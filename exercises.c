@@ -44,8 +44,7 @@ Al finalizar retorna la lista creada.
 List* crea_lista() {
    List* L = create_list();
    for (int k = 1; k < 11; ++k){
-      int* numero = (int*) k;
-      pushFront(L, numero);
+      pushFront(L, k);
    }
    return L;
 }
