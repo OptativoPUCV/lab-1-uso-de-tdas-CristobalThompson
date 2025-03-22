@@ -331,3 +331,14 @@ stack.h:11:31: note: expected 'void *' but argument is of type 'char'
 cc1.exe: all warnings being treated as errors
 Compilation failed
 4a360ec
+Sat, Mar 22, 2025 11:13:07 AM: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function 'parentesisBalanceados':
+exercises.c:122:27: error: cast to pointer from integer of different size [-Werror=int-to-pointer-cast]
+  122 |          void* elemento = (void *) cadena[k];
+      |                           ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+ff0bf95
