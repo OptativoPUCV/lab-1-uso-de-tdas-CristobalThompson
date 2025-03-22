@@ -376,3 +376,17 @@ Sat, Mar 22, 2025 11:14:54 AM:
  tests:  4|1
 total_score: 50/70
 f01fd28
+Sat, Mar 22, 2025 11:21:18 AM: 
+ exercises.c | 5 +++++
+ 1 file changed, 5 insertions(+)
+In file included from test.c:5:
+exercises.c: In function 'parentesisBalanceados':
+exercises.c:128:26: error: cast from pointer to integer of different size [-Werror=pointer-to-int-cast]
+  128 |          char caracter = (char) tope;
+      |                          ^
+exercises.c:128:15: error: unused variable 'caracter' [-Werror=unused-variable]
+  128 |          char caracter = (char) tope;
+      |               ^~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+e3e6859
